@@ -1,4 +1,5 @@
 import "./section6.scss";
+import { Link } from "react-router-dom";
 
 function Section6(props) {
   return (
@@ -9,9 +10,9 @@ function Section6(props) {
           고객상담 및 <strong>인테리어 문의</strong>
         </h3>
         <p>고객만족으로 보답하겠습니다</p>
-        <a href="#" className="article6_btn">
+        <Link to="/" className="article6_btn">
           문의상담
-        </a>
+        </Link>
       </div>
     </div>
   );

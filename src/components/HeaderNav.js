@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   margin: 10px auto;
@@ -36,7 +37,7 @@ function HeaderNav() {
       <ul id="register">
         {navLis.map((item) => (
           <li key={item.id}>
-            <a href="#"> {item.name}</a>
+            <Link to="/"> {item.name}</Link>
           </li>
         ))}
       </ul>

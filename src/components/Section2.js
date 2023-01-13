@@ -1,4 +1,5 @@
 import "./section2.scss";
+import { Link } from "react-router-dom";
 
 function Section2() {
   return (
@@ -20,8 +21,8 @@ function Section2() {
             </p>
           </div>
           <div className="btn">
-            <a href="#">공유하기</a>
-            <a href="#">상담신청</a>
+            <Link to="/">공유하기</Link>
+            <Link to="/">상담신청</Link>
           </div>
         </section>
       </article>

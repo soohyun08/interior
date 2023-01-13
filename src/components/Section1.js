@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Link } from "react-router-dom";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -47,13 +48,13 @@ function Section1() {
         <ul className="menu">
           {lis.map((item) => (
             <li key={item.id}>
-              <a href="#">
+              <Link to="/">
                 <h3>
                   {item.name}
                   <span>{item.span}</span>
                 </h3>
                 <span className="material-symbols-outlined">{item.svg}</span>
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
