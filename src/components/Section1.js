@@ -17,7 +17,6 @@ function Section1() {
     { id: 2, name: "키친 & 바스", span: "kitchen & bath", svg: " range_hood " },
     { id: 3, name: "빌트인수납", span: "builtin", svg: " room_preferences" },
     { id: 4, name: "가구", span: "furniture", svg: " bed " },
-    { id: 5, name: "리모델링", span: "remodeling", svg: " refresh " },
   ];
 
   return (
