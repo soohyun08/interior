@@ -14,7 +14,7 @@ function Logo() {
     <Container>
       <h1>
         <Link to="/">
-          <img src={path + "images/Interior.png"} alt="logo" />
+          <img src={path + "/images/Interior.png"} alt="logo" />
         </Link>
       </h1>
     </Container>

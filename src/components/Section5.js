@@ -9,43 +9,43 @@ import { Navigation, Pagination } from "swiper";
 
 const reviews = [
   {
-    id: 1,
-    url: "images/sec2-1.webp",
+    id: "b1",
+    url: "/images/sec2-1.webp",
     alt: "interior1",
   },
   {
-    id: 2,
-    url: "images/sec2-2.webp",
+    id: "b2",
+    url: "/images/sec2-2.webp",
     alt: "interior2",
   },
   {
-    id: 3,
-    url: "images/sec2-3.webp",
+    id: "b3",
+    url: "/images/sec2-3.webp",
     alt: "interior3",
   },
   {
-    id: 4,
-    url: "images/sec2-4.webp",
+    id: "b4",
+    url: "/images/sec2-4.webp",
     alt: "interior4",
   },
   {
-    id: 5,
-    url: "images/sec2-5.webp",
+    id: "b5",
+    url: "/images/sec2-5.webp",
     alt: "interior5",
   },
   {
-    id: 6,
-    url: "images/sec2-6.webp",
+    id: "b6",
+    url: "/images/sec2-6.webp",
     alt: "interior6",
   },
   {
-    id: 7,
-    url: "images/sec2-7.webp",
+    id: "b7",
+    url: "/images/sec2-7.webp",
     alt: "interior7",
   },
   {
-    id: 8,
-    url: "images/sec2-8.webp",
+    id: "b8",
+    url: "/images/sec2-8.webp",
     alt: "interior8",
   },
 ];

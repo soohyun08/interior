@@ -57,10 +57,10 @@ const Container = styled.div`
 function Section4(props) {
   return (
     <Container>
-      <ul class="main4_wrapper">
+      <ul className="main4_wrapper">
         {data.map((item) => (
           <li key={item.id}>
-            <span class="material-symbols-outlined">{item.svg}</span>
+            <span className="material-symbols-outlined">{item.svg}</span>
             <h4>{item.title}</h4>
             <p>인테리어 케이와 2022년 인테리어</p>
           </li>

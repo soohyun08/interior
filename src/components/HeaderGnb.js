@@ -7,22 +7,22 @@ import styled from "styled-components";
 
 const GnbLis = [
   {
-    id: 1,
+    id: "c1d",
     name: "회사소개",
     subMenu: <CompanyInfo />,
   },
   {
-    id: 2,
+    id: "c2d",
     name: "제품서비스",
     subMenu: <ProductService />,
   },
   {
-    id: 3,
+    id: "c3d",
     name: "갤러리",
     subMenu: <Gallery />,
   },
   {
-    id: 4,
+    id: "c4d",
     name: "새소식",
     subMenu: <News />,
   },
@@ -86,7 +86,7 @@ function HeaderGnb() {
         </li>
 
         {GnbLis.map((item) => (
-          <li>
+          <li key={item.id}>
             <a href="#">
               {item.name}
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
