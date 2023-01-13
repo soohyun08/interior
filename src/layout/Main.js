@@ -1,5 +1,3 @@
-import "../assets/styles/fonts.css";
-
 import Logo from "./Logo";
 import HeaderNav from "../components/HeaderNav";
 import HeaderGnb from "../components/HeaderGnb";
